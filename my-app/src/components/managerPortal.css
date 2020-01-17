@@ -1,0 +1,107 @@
+.manager {
+    min-height: 500px;
+    border-radius: 5px;
+}
+
+.managerTabs {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 1%
+}
+
+.card-panel {
+    border-radius: 5px;
+}
+
+
+.tabs .indicator {
+    background-color: rgb(33, 150, 243)
+}
+
+.collection-header, .collection {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.collection-item, .collection {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.employeeName {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.employeeInfo{
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:630px) {
+    .with-header {
+        margin-left: 5px;
+    }
+
+    .shift {
+        margin-left: 0px;
+    }
+}
+
+.radiobg {
+    z-index: -1;
+}
+
+a:active, a:hover {
+    color: white;
+}
+
+.deleteEmployee {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    font-size: 1.3rem;
+}
+
+.deleteAppointment {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.3rem;
+    margin-top: 2px
+}
+
+.appointmentRow {
+    margin: 0;
+    margin-top: 0px;
+}
+
+.appointmentName {
+    margin-top: 10px;
+}
+
+.appointmentTime {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 840px) {
+    .appointmentTime {
+        margin-top: 0px;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    .deleteAppointment {
+        position: relative;
+        bottom: 15px;
+        right: 5px;
+    }
+      .employeeInfo{
+        margin-right: 0px;
+    }
+    .managerPortalContain{
+        width: 100%;
+    }
+}

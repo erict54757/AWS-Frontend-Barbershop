@@ -1,0 +1,50 @@
+#index-banner{
+    height: 250px;
+    width: 100%;
+    top: 30%;
+   
+    position: absolute;
+
+}
+.holder{
+    margin:0;
+    padding: 1%;
+}
+
+.special{
+
+position: relative;
+top: 230px;     
+
+width: 100%;
+height: 0;
+
+ }
+
+.appoint{
+    height: 33%;
+    
+}
+.makeAppoint{
+  margin-top: 5%;
+  margin-left:"-20px";
+}
+.address{
+    margin-top: 5%;
+}
+.picker__frame{
+z-index: 0;
+}
+
+@media screen and (max-width: 993px){
+    .makeAppoint{
+        margin-bottom: 80px;
+        margin-top: 0px;
+        /* margin-left:"0px"; */
+    }
+   
+}
+
+
+
+

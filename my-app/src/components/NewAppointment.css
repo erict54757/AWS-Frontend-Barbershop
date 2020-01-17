@@ -1,0 +1,18 @@
+.picker__date-display{
+    background-color:  #2196F3;
+  }
+  .picker__weekday-display{
+      background-color:  rgb(120, 189, 245);
+  }
+  .btn-flat{
+   color:  #2196F3;
+  }
+ .makeAppointment{
+    height: 250px;        
+    width: 250px;
+    border-radius:50%;
+    margin-top: 3%;
+ }
+ #name{
+color: #2196F3
+ }

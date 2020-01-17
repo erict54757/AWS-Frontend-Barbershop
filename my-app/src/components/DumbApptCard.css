@@ -1,0 +1,8 @@
+.cardBody {
+  border-radius: 5px;
+  height: 250px;
+  width: 220px;
+}
+.deleteButton{
+  margin-bottom: 5px;
+}

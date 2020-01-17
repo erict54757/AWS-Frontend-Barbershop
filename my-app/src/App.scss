@@ -1,0 +1,77 @@
+
+// Colors
+@import "./components/components/color";
+
+// Variables;
+@import "./components/components/variables";
+
+// Reset
+@import "./components/components/normalize";
+
+// components
+@import "./components/components/global";
+@import "./components/components/badges";
+@import "./components/components/icons-material-design";
+@import "./components/components/grid";
+@import "./components/components/navbar";
+@import "./components/components/typography";
+@import "./components/components/transitions";
+@import "./components/components/cards";
+@import "./components/components/toast";
+@import "./components/components/tabs";
+@import "./components/components/tooltip";
+@import "./components/components/buttons";
+@import "./components/components/dropdown";
+@import "./components/components/waves";
+@import "./components/components/modal";
+@import "./components/components/collapsible";
+@import "./components/components/chips";
+@import "./components/components/materialbox";
+@import "./components/components/forms/forms";
+@import "./components/components/table_of_contents";
+@import "./components/components/sideNav";
+@import "./components/components/preloader";
+@import "./components/components/slider";
+@import "./components/components/carousel";
+@import "./components/components/tapTarget";
+@import "./components/components/pulse";
+@import "./components/components/date_picker/default";
+@import "./components/components/date_picker/default.date";
+@import "./components/components/date_picker/default.time";
+
+
+
+html {
+  min-height: 100%;
+  background-color: #f6f8fa; }
+
+h4 {
+  text-align: center; }
+
+@media screen and (max-width: 760px) {
+  .modal,.modal-fixed-footer {
+    width: 100%;
+    height: 85% 
+  }
+ }
+ .tabs .tab a:hover {
+  color: white!important;
+ }
+
+.tabs .tab a.active {
+  color: white!important;
+   }
+   .tabs .tab a {
+    color: white !important; }
+    .select-wrapper{
+      border-radius: 5px;
+     margin: 2px;
+  }
+  .dropdown-content{
+      border-radius: 5px;
+  }
+
+  div {
+    font-family: 'Roboto Slab', serif;
+
+  }

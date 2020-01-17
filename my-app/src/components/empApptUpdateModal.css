@@ -1,0 +1,40 @@
+.material-icons{
+    color: #2196F3
+  
+}
+.material-icons:active{
+    color: #2196F3
+  
+}
+.material-icons:focus-visible{
+    color: #2196F3
+  
+}
+.prefix .active{
+    color: #2196F3;
+    background-color:   #2196F3;
+}
+.border-bottom:focus{
+    color: #2196F3;
+    background-color:   #2196F3;
+}
+.box-shadow:focus{
+    color: #2196F3;
+    background-color:   #2196F3;
+}
+input:focus{
+    color: #2196F3;
+    background-color:   #2196F3;
+    border-bottom: #2196F3;
+    box-shadow:#2196F3;
+}
+.form-control:focus{
+    color: #2196F3;
+    background-color:   #2196F3;
+    border-bottom: #2196F3;
+    box-shadow:#2196F3;
+}
+.input-field:focus{
+    color: #2196F3;
+    background-color:   #2196F3;
+}

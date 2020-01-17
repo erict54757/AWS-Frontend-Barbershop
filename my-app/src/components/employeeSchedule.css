@@ -1,0 +1,52 @@
+.inputDate {
+    position: relative;
+    top: -65px;
+    left: 62%;
+   
+   
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected{
+    background-color: #2196F3;
+  }
+.addAppointment{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 900px){
+    .inputDate {
+        position: relative;
+        top: -65px;
+        left: 50%;
+       
+       
+    }
+
+  }
+  @media screen and (max-width: 520px){
+    .inputDate {
+        
+        position: relative;
+        top: 0px;
+        left: 0;
+         width:100%;
+        
+       
+    }
+    .input-field{
+        width:100%;
+    }
+    .addAppointment{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-bottom: 10px;
+        width:100%;
+       
+      }
+      .addCol{
+          width: 100%;
+      }
+
+  }

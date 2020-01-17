@@ -1,0 +1,45 @@
+{
+  "name": "mern",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://ec2-18-219-209-228.us-east-2.compute.amazonaws.com:9000",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "global": "^4.3.2",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.3.1",
+    "materialize-css": "git+https://github.com/erict54757/materialize.git",
+    "moment": "^2.24.0",
+    "node-gyp": "^3.8.0",
+    "node-sass-chokidar": "^1.3.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-google-maps": "^9.4.5",
+    "react-loading": "^2.0.3",
+    "react-materialize": "^2.6.0",
+    "react-moment": "^0.8.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.0.14",
+    "recompose": "^0.30.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
