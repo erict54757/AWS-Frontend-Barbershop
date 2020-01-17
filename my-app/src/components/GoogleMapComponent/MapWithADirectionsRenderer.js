@@ -12,8 +12,8 @@ const {
 
 const MapWithADirectionsRenderer = compose(
   withProps({
-
-    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyBnODhpeIHWNJAzM2C7DR8Xn3UhMJ7z9kE&v=3.exp&libraries=geometry,drawing,places",
+    
+    googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyBmyFxAnT58RzMepjHQIw6UPS8ToDQGspw&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `340px` }} />,
     mapElement: <div style={{ height: `90%`,marginTop:"25px",borderRadius:"5px" }} />,
