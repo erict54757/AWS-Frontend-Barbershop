@@ -103,7 +103,7 @@ export default {
     return axios.post("/api/appointments/" + id, appointmentData,{headers:{token:Auth.getToken()}});
   },
   sendEmail: function(emailData) {
-    return axios.post("https://ec2-18-219-209-228.us-east-2.compute.amazonaws.com:9000/cust/custNodeMailer/incoming", emailData,{headers:{token:Auth.getToken()}});
+    return axios.post("/cust/custNodeMailer/incoming", emailData,{headers:{token:Auth.getToken()}});
   },
   sendConfirmationEmail: function(emailData) {
     return axios.post("/api/sendEmail/confirmation", emailData,{headers:{token:Auth.getToken()}});
