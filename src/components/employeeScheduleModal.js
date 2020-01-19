@@ -209,7 +209,7 @@ class EmployeeScheduleModal extends Component {
   }
   handleFetch(response) {
 
-    if (this.state.loading) {
+    if (!this.state.loading) {
       const { appointments } = response
      
       const filteredAppointments = this.state.appointments[this.state.appointmentDate]
