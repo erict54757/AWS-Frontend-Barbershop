@@ -2,7 +2,7 @@
   "name": "mern",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://ec2-18-219-209-228.us-east-2.compute.amazonaws.com:9000",
+  "proxy": "https://ec2-18-219-209-228.us-east-2.compute.amazonaws.com:9000",
   "dependencies": {
     "axios": "^0.18.0",
     "global": "^4.3.2",
