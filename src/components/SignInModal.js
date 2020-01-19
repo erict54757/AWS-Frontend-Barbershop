@@ -78,7 +78,7 @@ export class SignInModal extends React.Component {
 
     console.log(data);
 
-    fetch("https://ec2-18-219-209-228.us-east-2.compute.amazonaws.com:9000//login", {
+    fetch("https://ec2-18-219-209-228.us-east-2.compute.amazonaws.com:9000/login", {
       method: "POST", // or 'PUT'
       body: JSON.stringify(data), // data can be `string` or {object}!
       headers: {
