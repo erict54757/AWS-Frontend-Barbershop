@@ -21,9 +21,11 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "*",
     "recompose": "^0.30.0",
-    "socket.io-client": "^2.2.0"
+    "socket.io-client": "^2.2.0",
+    "webpack-cli": "^3.3.10"
   },
   "scripts": {
+    "homepage": "http://erict54757.github.io/AWS-Frontend-Barbershop",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
