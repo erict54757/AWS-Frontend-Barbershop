@@ -41,7 +41,7 @@ export class App extends React.Component {
   render() {
     if (window.performance) {
       if (performance.navigation.type == 1) {
-        
+        alert( "This page is reloaded" );
          withRouter(({ history }) => (
           history.push('/new-location') ))
           
