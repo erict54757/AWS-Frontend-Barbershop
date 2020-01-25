@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter } from 'react-router-dom'
+// import { withRouter } from 'react-router-dom'
 
 
 import {
@@ -39,14 +39,14 @@ export class App extends React.Component {
   };
 
   render() {
-    if (window.performance) {
-      if (performance.navigation.type == 1) {
-        alert( "This page is reloaded" );
-         withRouter(({ history }) => (
-          history.push('/new-location') ))
+    // if (window.performance) {
+    //   if (performance.navigation.type == 1) {
+    //     alert( "This page is reloaded" );
+    //      withRouter(({ history }) => (
+    //       history.push('/new-location') ))
           
-      } 
-    }
+    //   } 
+    // }
     return (
       <Router>
         <div className="App">
