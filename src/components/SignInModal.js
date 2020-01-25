@@ -78,7 +78,7 @@ export class SignInModal extends React.Component {
 
     console.log(data);
 
-    fetch("https://barbershopbackend.com//login", {
+    fetch("https://barbershopbackend.com/login", {
       method: "POST", // or 'PUT'
       body: JSON.stringify(data), // data can be `string` or {object}!
       headers: {
