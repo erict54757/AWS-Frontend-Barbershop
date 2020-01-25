@@ -187,7 +187,7 @@ class EmployeeScheduleModal extends Component {
     let value = event.target.value;
     const name = event.target.name;
 
-    // name === "date" ? value = (moment(event.target.value, "DD MMMM, YYYY").format('YYYY-MM-DD')) : (event.target.value)
+    name === "date" ? value = (moment(event.target.value, "DD MMMM, YYYY").format('YYYY-MM-DD')) : (event.target.value)
     this.setState({ time: "" })
     console.log(this.props.employee)
     this.setState({
@@ -245,10 +245,10 @@ class EmployeeScheduleModal extends Component {
     }
   }
   renderAppointmentTimes() {
-    if (!this.state.loading && this.state.step >= 3) {
+    if (this.state.loading && this.state.step >= 3) {
 
 
-      console.log(this.state.EmployeeId)
+      console.log(this.state.day)
       const shiftEndTime = this.state.day + "shiftEndTime"
       const shiftStartTime = this.state.day + "shiftStartTime"
       console.log(this.props.employee[this.state.day])
@@ -274,6 +274,7 @@ class EmployeeScheduleModal extends Component {
         //  const scheduleEndTime =currentValue=>{ if(this.state.schedule[appointmentDateString])this.state.schedule[this.state.appointmentDate][slot+currentValue]===true}
         //  const valueSlots = [...Array(this.state.service).keys()]
         // const scheduleIsTaken= valueSlots.every(scheduleEndTime)
+        console.log("state of appointments",this.props,"state",this.state)
 
         const optionSelect = serviceType => {
           let value = []
