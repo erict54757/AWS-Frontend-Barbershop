@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { withRouter } from 'react-router-dom'
+
+
 import {
   BrowserRouter as Router,
   Route,
@@ -25,6 +28,7 @@ export class App extends React.Component {
     isEmp: Auth.getIsEmp(),
     isCust: Auth.getIsCust()
   };
+  
 
   componentDidMount() {
     Auth.onAuthChange(this.handleAuthChange);
@@ -35,6 +39,14 @@ export class App extends React.Component {
   };
 
   render() {
+    if (window.performance) {
+      if (performance.navigation.type == 1) {
+        
+         withRouter(({ history }) => (
+          history.push('/new-location') ))
+          
+      } 
+    }
     return (
       <Router>
         <div className="App">
